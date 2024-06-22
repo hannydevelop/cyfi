@@ -19,6 +19,9 @@
     flex-grow:1;
     flex-basis:100%;
   }
+  .offer{
+    background-color: rgb(246, 253, 246);
+  }
   .navbar.navbar-expand-lg.fixed-top.navbar-light{
     box-shadow:0 0 5px 0 black ;
     background-color:#34a853;

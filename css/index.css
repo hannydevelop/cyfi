@@ -4,6 +4,10 @@
   body {
     margin: 0;
   }
+  a {
+    color: black;
+    text-decoration: none;
+  }
   .navbar.navbar-expand-lg.fixed-top.navbar-light{
     box-shadow:0 0 5px 0 black ;
     background-color:#34a853;
@@ -14,6 +18,15 @@
   .nav-link.active{
     color:green;
   }
+  .nav-item {
+    font-size: large;
+  }
+  .ph-section {
+    padding: 1%;
+  }
+  .offer{
+    background-color: rgb(246, 253, 246);
+  }
   .pb-2.border-bottom{
     font-size:50px;
   }
@@ -23,11 +36,17 @@
   .pb-2.border-bottom.gjs-selected{
     font-size:50px;
   }
+  .bd-placeholder-img{
+    height:100vh;
+  }
   .carousel{
     margin-bottom:4rem;
   }
+  .carousel-item {
+    background-color: rgba(0, 0, 0, 0.5)
+  }
   .carousel-caption{
-    bottom:3rem;
+    bottom:7rem;
     z-index:10;
   }
   .display-5.fw-bold.text-body-emphasis.lh-1.mb-3{
